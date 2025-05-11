@@ -1,0 +1,22 @@
+baseURL = "https://<your-github-name>.github.io/"
+languageCode = "en-us"
+title = "My DevOps Blog"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+
+[menu]
+  [[menu.main]]
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Case Studies"
+    url = "/case-studies/"
+    weight = 2
